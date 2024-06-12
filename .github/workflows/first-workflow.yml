@@ -5,7 +5,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: coucou
-        run: echo "coucou"
+        run: |
+          echo "coucou"
+          echo "ça va ?"
       - name: bye
         run: echo "au reveoir"
   
